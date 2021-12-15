@@ -11,7 +11,6 @@
 // zero integers = 1
 // ratio = pos/arr.length
 // There are  elements, two positive, two negative and one zero. Their ratios are ,  and . Results are printed as:
-
 // 0.400000
 // 0.400000
 // 0.200000
