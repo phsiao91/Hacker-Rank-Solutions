@@ -4,7 +4,7 @@
 // arr = [1, 3, 5, 7, 9]
 // min sum is 1+3+5+7 = 16
 // max sum is 3+5+7+9 = 24
-
+// Print two space-separated integers on one line: the minimum sum and the maximum sum of 4 of 5 elements.
 
 function miniMaxSum(arr) {
     //lets find the sum of the array
