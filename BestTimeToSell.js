@@ -17,9 +17,11 @@
 const maxProfit = (prices) => {
 
     let maxProfit = 0
-
+    // start buy at first index
     for(let buy = 0; buy < prices.length; buy++){
+        // sell price on buy +1 index 
         for(let sell = buy+1; sell < prices.length; sell++){
+            // compare each buy with each sell and return max amount
             let profit = prices[sell] - prices[buy]
 
             maxProfit = Math.max(maxProfit, profit)
