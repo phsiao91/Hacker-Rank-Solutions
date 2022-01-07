@@ -27,3 +27,20 @@ function idealNumbers(low, high){
 
 
 }
+
+
+// const la = (n) => {
+//     let result = 0
+//     let l = 0
+//     let b = 0
+//     if(n % 2 === 1){
+//         n-1
+//         b = (n/2-1)/2
+//         l = (n/2)
+//     }else{
+//         b = (n/2-1)/2
+//         l = (n/2)
+//     }
+//     result = Math.round(l*b)
+//     return result
+// }
