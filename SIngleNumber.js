@@ -10,8 +10,6 @@ const singleNumber = (nums) => {
         ht[num] = ht[num] +1 || 1
     }
     for(const key in ht){
-        console.log(key)
-        console.log(ht[key])
         if(ht[key] === 1){
             return key
         }
