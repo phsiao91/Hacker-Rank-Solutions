@@ -9,6 +9,10 @@ const caesarCipher = (str, num) => {
 
     for(let i = 0; i < lowerCaseStr.length; i ++){
         let currentLetter = lowerCaseStr[i]
+        if(currentLetter === " "){
+            result += currentLetter;
+            continue;
+        }
         let currentIndex = alphabet.indexOf(currentLetter)
 
         let newIndex = currentIndex + num
