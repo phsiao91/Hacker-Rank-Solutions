@@ -27,3 +27,13 @@ const checkPerfectNumber = (num) => {
     console.log(sum)
     return( sum === num)
 };
+
+
+// const multiples = (n) => {
+//     let result = 0
+//     for(let i = 1; i <=10; i++){
+//         result = n*i
+//         console.log(n, "x", i ,"=", result)
+//     }
+// }
+
