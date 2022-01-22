@@ -26,3 +26,12 @@ const caesarCipher = (str, num) => {
     }
     return result
 }
+
+
+const checker = (a) => {
+    let i = 0
+    for(size of a){
+        console.log(size)
+
+    }
+}
